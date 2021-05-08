@@ -12,7 +12,7 @@ D = [[2.33, 0.81, 0.67, 0.92, -0.53],
 
 b = [4.2, 4.2, 4.2, 4.2, 4.2]
 
-def countMatrix():
+def count_matrix():
     result = [[0, 0, 0, 0, 0],
          [0, 0, 0, 0, 0],
          [0, 0, 0, 0, 0],
@@ -31,7 +31,7 @@ def is_singular(matrix):
             return True
     return False
 
-def toFixed(numObj, digits=0):
+def to_fixed(numObj, digits=0):
     return f"{numObj:.{digits}f}"
 
 def solve_gauss(matrix):
@@ -53,11 +53,11 @@ def solve_gauss(matrix):
 
     print(x)
     for i in range(len(x)):
-        a = str(toFixed(x[i],4))
+        a = str(to_fixed(x[i],4))
         print("x{} = {}".format(i+1,a))
 
 def main():
-    result = countMatrix()
+    result = count_matrix()
     for row in result:
         print(row)
     solve_gauss(result)   

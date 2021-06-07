@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+
+  db:
+    image: postgres:13.0-alpine
+    container_name: postgres
+    restart: always
+    volumes:
+      - ./db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "${DB_USERNAME}"
+      POSTGRES_PASSWORD: "${DB_PASSWORD}"
+      POSTGRES_DB: "${DB_NAME}"
+    ports:
+      - "5435:5432"
+
+  bot:
+    build: ./
+    container_name: weather_bot
+    restart: always
+    ports:
+    - "5000:5000"
+    depends_on:
+      - db
+    command: gunicorn --bind 0.0.0.0:5000 app:app

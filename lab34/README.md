@@ -1,4 +1,5 @@
-# Лабораторная работа №3,4
-Телеграм бот-погода\
-Возможности: авторизация, добавление / удаление города, получение погоды, установка / удаление уведомлений.
-Возможности админа: просмотр всех пользователей, бан / разбан пользователей.
+# Simple Telegram-Weather Bot
+
+Features: authorization, adding / removing a city, getting weather, setting / removing notifications.
+
+Admin features: viewing all users, ban / unban users.

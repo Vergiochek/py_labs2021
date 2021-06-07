@@ -1,0 +1,4 @@
+__class__: Car
+__type__: object
+brand: Peugeot
+model: '406'

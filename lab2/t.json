@@ -1,0 +1,4 @@
+{
+    "__type__": "function",
+    "code": "lambda x: x + 1\n"
+}

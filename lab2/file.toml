@@ -1,0 +1,4 @@
+__type__ = "object"
+__class__ = "Car"
+brand = "LADA"
+model = "2106"

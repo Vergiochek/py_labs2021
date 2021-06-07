@@ -1,0 +1,35 @@
+code:
+  co_argcount: 1
+  co_cellvars: !!python/tuple []
+  co_code:
+  - 124
+  - 0
+  - 100
+  - 1
+  - 23
+  - 0
+  - 83
+  - 0
+  co_consts: !!python/tuple
+  - null
+  - 1
+  co_filename: /Users/a1/Desktop/py_isp/seclab/data.py
+  co_firstlineno: 7
+  co_flags: 67
+  co_freevars: !!python/tuple []
+  co_kwonlyargcount: 0
+  co_lnotab: []
+  co_name: <lambda>
+  co_names: !!python/tuple []
+  co_nlocals: 1
+  co_posonlyargcount: 0
+  co_stacksize: 2
+  co_varnames: !!python/tuple
+  - x
+globals:
+  <lambda>: <lambda><function>
+  __cached__: /Users/a1/Desktop/py_isp/seclab/__pycache__/data.cpython-39.pyc
+  __doc__: null
+  __file__: /Users/a1/Desktop/py_isp/seclab/data.py
+  __name__: data
+  __package__: ''
